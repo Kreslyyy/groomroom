@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>GroomRoom</title>
+    <script src="https://kit.fontawesome.com/6cf45d3137.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="/main.html" class="header__logo">GroomRoom</a>
+                <a href="/login.html" class="header__login btn">Авторизация</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="hero">
+            <div class="container container--hero">
+                <div class="hero__info">
+                    <h1>Груминг</h1>
+                    <h2>для вашего</br>любимца</h2>
+                    <a href="#record" class="btn">Записаться</a>
+                </div>
+                <div class="hero__img">
+                    <img class="hero__img-dog" src="./img/happy-dog.png" alt="dog">
+                    <img class="hero__img-cat" src="./img/happy-cat.png" alt="cat">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="main__title" id="last-works">Наши последние работы</h2>
+            <div class="main__content">
+                <div class="main__works">
+                    <div class="main__img">
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-before">
+                        <i class="fa-solid fa-arrow-right-long fa-2xl"></i>
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-after">
+                    </div>
+                    <div class="main__user">
+                        <div class="user__name">
+                            <img src="./img/avatar.png" alt="avatar" class="user__avatar">
+                            <p>User</p>
+                        </div>
+                        <div class="user__review">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__works">
+                    <div class="main__img">
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-before">
+                        <i class="fa-solid fa-arrow-right-long fa-2xl"></i>
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-after">
+                    </div>
+                    <div class="main__user">
+                        <div class="user__name">
+                            <img src="./img/avatar.png" alt="avatar" class="user__avatar">
+                            <p>User</p>
+                        </div>
+                        <div class="user__review">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="main__content">
+                <div class="main__works">
+                    <div class="main__img">
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-before">
+                        <i class="fa-solid fa-arrow-right-long fa-2xl"></i>
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-after">
+                    </div>
+                    <div class="main__user">
+                        <div class="user__name">
+                            <img src="./img/avatar.png" alt="avatar" class="user__avatar">
+                            <p>User</p>
+                        </div>
+                        <div class="user__review">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__works">
+                    <div class="main__img">
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-before">
+                        <i class="fa-solid fa-arrow-right-long fa-2xl"></i>
+                        <img src="./img/happy-dog.png" alt="pet" class="main__img-after">
+                    </div>
+                    <div class="main__user">
+                        <div class="user__name">
+                            <img src="./img/avatar.png" alt="avatar" class="user__avatar">
+                            <p>User</p>
+                        </div>
+                        <div class="user__review">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__works-more">
+                <a href="./reviews-page.html" class="main__button btn">Перейти на страницу отзывов</a>
+            </div>
+        </div>
+        <div class="record__background">
+            <div class="main__record">
+                <div class="container">
+                    <h2 class="record__title" id="record">Запись</h2>
+                    <p class="record__note">*Чтобы записаться, Вам необходимо войти в аккаунт.</p>
+                    <div class="record__form">
+                        <form>
+                            <div class="form-group">
+                                <label for="owner-name">Ваше имя</label>
+                                <input type="text" id="owner-name" name="owner-name" placeholder="Введите ваше имя"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact">Контактный номер</label>
+                                <input type="tel" id="contact" name="contact" placeholder="Введите ваш номер телефона"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Электронная почта</label>
+                                <input type="email" id="email" name="email" placeholder="Введите вашу почту" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pet-name">Имя питомца</label>
+                                <input type="text" id="pet-name" name="pet-name"
+                                    placeholder="Введите имя вашего питомца" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pet-type">Тип животного</label>
+                                <select id="pet-type" name="pet-type" required>
+                                    <option value="">Выберите тип</option>
+                                    <option value="dog">Собака</option>
+                                    <option value="cat">Кошка</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointment-date">Дата записи</label>
+                                <input type="date" id="appointment-date" name="appointment-date" required>
+                            </div>
+                            <button class="record__button" type="submit">Записаться</button>
+                        </form>
+                        <img class="record__img" src="./img/dog-grooming.png" alt="grooming-dog">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                <div class="footer__logo">
+                    <a href="./main.html">GroomRoom</a>
+                </div>
+                <div class="footer__contact">
+                    Контакты:
+                    <ul>
+                        <li>
+                            <a href="tel:+3751111111">Номер телефона: +375(11)111-11-11</a>
+                        </li>
+                        <li>
+                            <a href="mailto:groomroom@gmail.com">E-mail: groomroom@gmail.com</a>
+                        </li>
+                        <li>
+                            <address>Адресс: г. Витебск, ул. Ленина, д. 12</address>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__nav">
+                    Навигация по сайту:
+                    <ul class="nav__list">
+                        <li class="nav__list-item">
+                            <a href="#header">Главный экран</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#last-works">Наши последние работы</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="#record">Записаться на процедуры</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__follow">
+                    Следите за нами в соц. сетях:
+                    <ul>
+                        <li>
+                            <a class="follow__link" href="#"><i class="fa-brands fa-instagram fa-2xl"
+                                    style="color: #ffffff;"></i></a>
+                        </li>
+                        <li>
+                            <a class="follow__link" href="#"><i class="fa-brands fa-telegram fa-2xl"
+                                    style="color: #ffffff;"></i></a>
+                        </li>
+                        <li>
+                            <a class="follow__link" href="#"><i class="fa-brands fa-youtube fa-2xl"
+                                    style="color: #ffffff;"></i></a>
+                        </li>
+                        <li>
+                            <a class="follow__link" href="#"><i class="fa-brands fa-tiktok fa-2xl"
+                                    style="color: #ffffff;"></i></a>
+                        </li>
+                        <li>
+                            <a class="follow__link" href="#"><i class="fa-brands fa-pinterest fa-2xl"
+                                    style="color: #ffffff;"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
